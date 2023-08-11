@@ -1,12 +1,15 @@
 #!/usr/bin/python3
-import sys
 
-end_value = []
-arguments = sys.argv[1:]
+if __name__ == "__main__":
+	""" print some of args"""
+	import sys
 
-for arg in arguments:
-	end_value.append(int(arg))
+	end_value = []
+	arguments = sys.argv[1:]
 
-final_val = sum(end_value)
+	for arg in arguments:
+		end_value.append(int(arg))
 
-print(final_val)
+	final_val = sum(end_value)
+
+	print(final_val)
