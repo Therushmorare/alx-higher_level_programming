@@ -1,4 +1,9 @@
 #!/usr/bin/python3
-from variable_load_5 import a
 
-print(a)
+if __name__ == "__main__":
+
+	""" print the imported var a"""
+
+	from variable_load_5 import a
+
+	print(a)
