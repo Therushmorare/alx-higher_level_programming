@@ -1,13 +1,2 @@
 #!/bin/bash
-
-if [ -z "$PYFILE" ]; then
-  echo "PYFILE environment variable is not set."
-  exit 1
-fi
-
-echo "Compiling $PYFILE ..."
-python3 -m py_compile "$PYFILE"
-
-new_file="${PYFILE%.*}.pyc"
-mv "__pycache__/$new_file" "$new_file"
-rm -rf "__pycache__"
+python3 -m compileall -b $PYFILE i
