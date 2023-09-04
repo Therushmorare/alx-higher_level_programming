@@ -2,13 +2,12 @@
 
 """ class rectangle """
 class Rectangle:
+    """ init rectangle      
+        Args:
+             width (int): width of the rectangle
+             height (int): height of the rectangle
+    """
     def __init__(self, width=0, height=0):
-        """ init rectangle
-            
-            Args:
-                width (int): width of the rectangle
-                height (int): height of the rectangle
-        """
         self.__width = width
         self.__height = height
 
