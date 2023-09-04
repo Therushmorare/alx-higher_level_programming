@@ -3,7 +3,12 @@
 """ class rectangle """
 class Rectangle:
     def __init__(self, width=0, height=0):
-        """ init rectangle """
+        """ init rectangle
+            
+            Args:
+                width (int): width of the rectangle
+                height (int): height of the rectangle
+        """
         self.__width = width
         self.__height = height
 
