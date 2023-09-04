@@ -2,6 +2,6 @@
 
 """ class rectangle """
 class Rectangle:
-""" represents a rectangle """
+    """ represents a rectangle """
     pass
 
