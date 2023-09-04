@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
 class Rectangle:
+    """ initialize class
+        Args:
+             width (int): the width of rectangle
+             height (int): height of rectangle
+    """
     def __init__(self, width=0, height=0):
-        """ initialize class
-	    Args:
-		width(int): the width of rectangle
-		height(int): the height of rectangle
-	"""
         self.__width = width
         self.__height = height
 
