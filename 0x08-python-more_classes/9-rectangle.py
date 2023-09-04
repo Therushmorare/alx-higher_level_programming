@@ -63,7 +63,7 @@ class Rectangle:
 
     def __repr__(self):
         """ string """
-        return f"Rectangle({self.__width}, {self.__height})"
+        return "Rectangle({}, {})".format(self.__width, self.__height)
     
     def __del__(self):
         """ deletion """

@@ -61,7 +61,7 @@ class Rectangle:
         return "\n".join([str(Rectangle.print_symbol) * self.__width] * self.__height)
 
     def __repr__(self):
-        return f"Rectangle({self.__width}, {self.__height})"
+        return "Rectangle({}, {})".format(self.__width, self.__height)
     
     def __del__(self):
         print("Bye rectangle...")
