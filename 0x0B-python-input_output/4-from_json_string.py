@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+""" json module """
 import json
 
 """ function from json to string """
