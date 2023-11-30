@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
-""" find peak """
+""" task 6 """
 
 def find_peak(list_of_integers):
+    """ findd the peak in list """
     if not list_of_integers:
         return None
 
@@ -11,7 +12,6 @@ def find_peak(list_of_integers):
     while low < high:
         mid = (low + high) // 2
 
-        # Compare mid element with its neighbors
         if list_of_integers[mid] > list_of_integers[mid + 1]:
             high = mid
         else:
